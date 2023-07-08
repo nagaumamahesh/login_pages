@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Page</title>
+    <link rel="stylesheet" href="styles/user.css">
+</head>
+
+<body>
+    <div class="user-container">
+        <h2 class="user-title">User Page</h2>
+        <div class="user-info">
+            <div class="user-field">
+                <label for="address">Address:</label>
+                <input type="text" id="address" class="user-input">
+            </div>
+            <div class="user-field">
+                <label for="city">City:</label>
+                <input type="text" id="city" class="user-input">
+            </div>
+            <div class="user-field">
+                <label for="pin-code">PIN Code:</label>
+                <input type="text" id="pin-code" class="user-input">
+            </div>
+            <div class="user-field">
+                <label for="aadhar-verified">Aadhar Verified:</label>
+                <input type="text" id="aadhar-verified" class="user-input" readonly>
+            </div>
+            <div class="user-field">
+                <label for="country-code">Country Code:</label>
+                <input type="text" id="country-code" class="user-input" readonly>
+            </div>
+            <div class="user-field">
+                <label for="email">Email:</label>
+                <input type="text" id="email" class="user-input" readonly>
+            </div>
+            <div class="user-field">
+                <label for="email-verified">Email Verified:</label>
+                <input type="text" id="email-verified" class="user-input" readonly>
+            </div>
+            <div class="user-field">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" class="user-input">
+            </div>
+            <div class="user-field">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" class="user-input">
+            </div>
+            <div class="user-field">
+                <label for="username">Username:</label>
+                <input type="text" id="username" class="user-input">
+            </div>
+        </div>
+        <div class="user-actions">
+            <button id="update-address-btn" class="btn btn-primary">Update Address</button>
+            <button id="get-user-info-btn" class="btn btn-primary">Get User Info</button>
+            <button id="update-name-btn" class="btn btn-primary">Update Name</button>
+            <button id="update-username-btn" class="btn btn-primary">Update Username</button>
+        </div>
+    </div>
+
+    <script src="scripts/user.js"></script>
+</body>
+
+</html>
